@@ -1,0 +1,538 @@
+2025-05-18 00:13:10,949 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 00:13:10,950 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:13:10,985 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-18 00:13:15,518 - WARNING -  * Debugger is active!
+2025-05-18 00:13:15,531 - INFO -  * Debugger PIN: 885-999-814
+2025-05-18 00:17:07,319 - INFO - 127.0.0.1 - - [18/May/2025 00:17:07] "GET / HTTP/1.1" 200 -
+2025-05-18 00:17:08,073 - INFO - 127.0.0.1 - - [18/May/2025 00:17:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 00:17:15,444 - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 00:17:17,547 - INFO - Scan completed successfully
+2025-05-18 00:17:18,235 - ERROR - Scan failed: tag name expected
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 720, in index
+    return render_template('results.html',
+                        url=validated_url,
+    ...<4 lines>...
+                        recommendations=top_recommendations,
+                        scores=scores)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\nk\website-quality-scanner\templates\results.html", line 28, in template
+    {% %}
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-05-18 00:17:18,239 - INFO -  * Detected change in 'C:\\Users\\nk\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask\\templating.py', reloading
+2025-05-18 00:17:18,248 - INFO - 127.0.0.1 - - [18/May/2025 00:17:18] "POST / HTTP/1.1" 200 -
+2025-05-18 00:17:18,249 - INFO -  * Detected change in 'C:\\Users\\nk\\AppData\\Roaming\\Python\\Python313\\site-packages\\jinja2\\environment.py', reloading
+2025-05-18 00:17:18,250 - INFO -  * Detected change in 'C:\\Users\\nk\\AppData\\Roaming\\Python\\Python313\\site-packages\\jinja2\\loaders.py', reloading
+2025-05-18 00:17:18,850 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-18 00:17:22,310 - WARNING -  * Debugger is active!
+2025-05-18 00:17:22,318 - INFO -  * Debugger PIN: 885-999-814
+2025-05-18 00:17:59,351 - INFO - Starting scan of: https://advbikeco.co.za/
+2025-05-18 00:18:00,175 - INFO - Scan completed successfully
+2025-05-18 00:18:00,599 - ERROR - Scan failed: tag name expected
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 720, in index
+    return render_template('results.html',
+                        url=validated_url,
+    ...<4 lines>...
+                        recommendations=top_recommendations,
+                        scores=scores)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\nk\website-quality-scanner\templates\results.html", line 28, in template
+    {% %}
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-05-18 00:18:00,611 - INFO - 127.0.0.1 - - [18/May/2025 00:18:00] "POST / HTTP/1.1" 200 -
+2025-05-18 00:18:07,799 - INFO - Starting scan of: https://advbikeco.co.za/
+2025-05-18 00:18:08,515 - INFO - Scan completed successfully
+2025-05-18 00:18:08,902 - ERROR - Scan failed: tag name expected
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 720, in index
+    return render_template('results.html',
+                        url=validated_url,
+    ...<4 lines>...
+                        recommendations=top_recommendations,
+                        scores=scores)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\nk\website-quality-scanner\templates\results.html", line 28, in template
+    {% %}
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-05-18 00:18:08,909 - INFO - 127.0.0.1 - - [18/May/2025 00:18:08] "POST / HTTP/1.1" 200 -
+2025-05-18 00:20:10,933 - INFO - Starting scan of: https://google.com/
+2025-05-18 00:20:13,381 - INFO - Scan completed successfully
+2025-05-18 00:20:15,089 - ERROR - Scan failed: tag name expected
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 720, in index
+    return render_template('results.html',
+                        url=validated_url,
+    ...<4 lines>...
+                        recommendations=top_recommendations,
+                        scores=scores)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\nk\website-quality-scanner\templates\results.html", line 28, in template
+    {% %}
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-05-18 00:20:15,094 - INFO - 127.0.0.1 - - [18/May/2025 00:20:15] "POST / HTTP/1.1" 200 -
+2025-05-18 00:20:21,718 - INFO -  * Detected change in 'C:\\Python313\\Lib\\io.py', reloading
+2025-05-18 00:20:22,736 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-18 00:20:27,495 - WARNING -  * Debugger is active!
+2025-05-18 00:20:27,502 - INFO -  * Debugger PIN: 885-999-814
+2025-05-18 00:33:41,579 - INFO -  * Detected change in 'C:\\Users\\nk\\website-quality-scanner\\app.py', reloading
+2025-05-18 00:33:44,162 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-18 00:33:50,281 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 00:33:52,699 - __main__ - INFO - Scan completed successfully
+2025-05-18 00:33:52,701 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    scores = auto_score_website(scan_results['data'])
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    page_size = analysis_data['performance']['page_size_kb']
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 00:33:52,715 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:33:52] "POST / HTTP/1.1" 200 -
+2025-05-18 00:38:56,668 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 00:38:59,194 - __main__ - INFO - Scan completed successfully
+2025-05-18 00:38:59,196 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 00:38:59,198 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:59] "POST / HTTP/1.1" 200 -
+2025-05-18 00:39:05,174 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:05] "GET / HTTP/1.1" 200 -
+2025-05-18 00:39:09,437 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 00:39:10,537 - __main__ - INFO - Scan completed successfully
+2025-05-18 00:39:10,541 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 00:39:10,544 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:10] "POST / HTTP/1.1" 200 -
+2025-05-18 00:53:00,455 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:53:00] "GET / HTTP/1.1" 200 -
+2025-05-18 00:53:06,496 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 00:53:07,598 - __main__ - INFO - Scan completed successfully
+2025-05-18 00:53:07,601 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 00:53:07,608 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:53:07] "POST / HTTP/1.1" 200 -
+2025-05-18 01:14:22,143 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:14:22] "GET / HTTP/1.1" 200 -
+2025-05-18 01:14:24,780 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 01:14:26,446 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:14:26,447 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    'scan_data': scan_results['data'],
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    elif load_time < 5:
+                ^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 01:14:26,453 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:14:26] "POST / HTTP/1.1" 200 -
+2025-05-18 01:25:03,066 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:25:03] "GET / HTTP/1.1" 200 -
+2025-05-18 01:25:07,033 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 01:25:08,088 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:25:08,089 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    details.append(f"Language: {'Set' if scan_data['accessibility']['lang_attribute'] else 'Missing'}")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    accessibility['alt_text_images'] = len(soup.find_all('img', alt=True))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 01:25:08,099 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:25:08] "POST / HTTP/1.1" 200 -
+2025-05-18 01:31:37,167 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:31:37] "GET / HTTP/1.1" 200 -
+2025-05-18 01:31:39,649 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 01:31:41,461 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:31:41,463 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    details.append(f"Responsive CSS: {scan_data['resources']['stylesheets']} sheets")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['security']['https'] = response.url.startswith('https://')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 01:31:41,467 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:31:41] "POST / HTTP/1.1" 200 -
+2025-05-18 01:35:27,835 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:35:27] "GET / HTTP/1.1" 200 -
+2025-05-18 01:35:30,270 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 01:35:31,364 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:35:31,366 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    details.append(f"Responsive CSS: {scan_data['resources']['stylesheets']} sheets")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['security']['https'] = response.url.startswith('https://')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 01:35:31,371 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:35:31] "POST / HTTP/1.1" 200 -
+2025-05-18 01:40:01,195 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:40:01] "GET / HTTP/1.1" 200 -
+2025-05-18 01:40:03,587 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 01:40:05,222 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:40:05,229 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 01:40:05,232 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:40:05] "POST / HTTP/1.1" 200 -
+2025-05-18 01:41:25,378 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 01:41:27,720 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:41:27,721 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 01:41:27,728 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:41:27] "POST / HTTP/1.1" 200 -
+2025-05-18 01:56:49,781 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:56:49] "GET / HTTP/1.1" 200 -
+2025-05-18 01:56:53,502 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 01:56:54,605 - __main__ - INFO - Scan completed successfully
+2025-05-18 01:56:54,612 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    resources = scan_data.get('resources', {})
+                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 01:56:54,616 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 01:56:54] "POST / HTTP/1.1" 200 -
+2025-05-18 02:08:12,596 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:08:12] "GET / HTTP/1.1" 200 -
+2025-05-18 02:08:17,060 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 02:08:19,637 - __main__ - INFO - Scan completed successfully
+2025-05-18 02:08:19,640 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    try:
+    
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 02:08:19,648 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:08:19] "POST / HTTP/1.1" 200 -
+2025-05-18 02:21:22,480 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:21:22] "GET / HTTP/1.1" 200 -
+2025-05-18 02:21:25,549 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 02:21:27,977 - __main__ - INFO - Scan completed successfully
+2025-05-18 02:21:27,980 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 02:21:27,984 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:21:27] "POST / HTTP/1.1" 200 -
+2025-05-18 02:24:21,852 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:24:21] "GET / HTTP/1.1" 200 -
+2025-05-18 02:24:28,832 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 02:24:31,112 - __main__ - INFO - Scan completed successfully
+2025-05-18 02:24:31,114 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 02:24:31,117 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:24:31] "POST / HTTP/1.1" 200 -
+2025-05-18 02:25:58,949 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:25:58] "GET / HTTP/1.1" 200 -
+2025-05-18 02:26:02,316 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 02:26:04,749 - __main__ - INFO - Scan completed successfully
+2025-05-18 02:26:04,750 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 02:26:04,779 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:26:04] "POST / HTTP/1.1" 200 -
+2025-05-18 02:38:45,527 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:38:45] "GET / HTTP/1.1" 200 -
+2025-05-18 02:38:48,172 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 02:38:50,570 - __main__ - INFO - Scan completed successfully
+2025-05-18 02:38:50,571 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 02:38:50,578 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 02:38:50] "POST / HTTP/1.1" 200 -
+2025-05-18 08:54:57,638 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 08:54:57] "GET / HTTP/1.1" 200 -
+2025-05-18 08:58:22,071 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 08:58:22] "GET / HTTP/1.1" 200 -
+2025-05-18 08:58:25,022 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 08:58:27,367 - __main__ - INFO - Scan completed successfully
+2025-05-18 08:58:27,369 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    details = []
+    
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 08:58:27,385 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 08:58:27] "POST / HTTP/1.1" 200 -
+2025-05-18 08:59:28,450 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 08:59:28] "GET / HTTP/1.1" 200 -
+2025-05-18 08:59:31,070 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 08:59:32,851 - __main__ - INFO - Scan completed successfully
+2025-05-18 08:59:32,853 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    """Completely safe category details generator with nested .get()"""
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['resources']['scripts'] = len(soup.find_all('script', src=True))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 08:59:32,865 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 08:59:32] "POST / HTTP/1.1" 200 -
+2025-05-18 09:05:34,088 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:05:34] "GET / HTTP/1.1" 200 -
+2025-05-18 09:05:36,541 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:05:38,531 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:05:38,533 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ws3.cell(row=rec_row, column=1).alignment = Alignment(wrap_text=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['resources']['scripts'] = len(soup.find_all('script', src=True))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 09:05:38,569 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:05:38] "POST / HTTP/1.1" 200 -
+2025-05-18 09:08:31,883 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:08:31] "GET / HTTP/1.1" 200 -
+2025-05-18 09:08:34,172 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:08:36,451 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:08:36,454 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ws3.cell(row=rec_row, column=1).alignment = Alignment(wrap_text=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['resources']['scripts'] = len(soup.find_all('script', src=True))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 09:08:36,458 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:08:36] "POST / HTTP/1.1" 200 -
+2025-05-18 09:22:13,518 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:22:13] "GET / HTTP/1.1" 200 -
+2025-05-18 09:22:16,337 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:22:18,519 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:22:18,520 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    rec_row += 1
+    
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 09:22:18,530 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:22:18] "POST / HTTP/1.1" 200 -
+2025-05-18 09:24:39,133 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:24:39] "GET / HTTP/1.1" 200 -
+2025-05-18 09:24:41,838 - __main__ - INFO - Starting scan of: https://rideexpeditions.com
+2025-05-18 09:24:43,726 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:24:43,727 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    rec_row += 1
+    
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 09:24:43,729 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:24:43] "POST / HTTP/1.1" 200 -
+2025-05-18 09:24:46,060 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:24:48,317 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:24:48,319 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    rec_row += 1
+    
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    # Security headers
+KeyError: 'page_size_kb'
+2025-05-18 09:24:48,321 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:24:48] "POST / HTTP/1.1" 200 -
+2025-05-18 09:32:47,451 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:32:47] "GET / HTTP/1.1" 200 -
+2025-05-18 09:32:49,968 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:32:51,988 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:32:51,989 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    'accessibility': {},
+        ^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 09:32:52,000 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:32:52] "POST / HTTP/1.1" 200 -
+2025-05-18 09:41:58,541 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:41:58] "GET / HTTP/1.1" 200 -
+2025-05-18 09:42:02,323 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:42:04,747 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:42:04,748 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ws3.cell(row=i, column=2).font = Font(color="FF0000", bold=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['resources']['stylesheets'] = len(soup.find_all('link', rel='stylesheet'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 09:42:04,762 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:42:04] "POST / HTTP/1.1" 200 -
+2025-05-18 09:43:28,290 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:43:28] "GET / HTTP/1.1" 200 -
+2025-05-18 09:43:30,756 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:43:32,921 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:43:32,931 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ws3.cell(row=i, column=2).font = Font(color="FF0000", bold=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['resources']['stylesheets'] = len(soup.find_all('link', rel='stylesheet'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 09:43:32,933 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:43:32] "POST / HTTP/1.1" 200 -
+2025-05-18 09:57:49,724 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:57:49] "GET / HTTP/1.1" 200 -
+2025-05-18 09:57:52,657 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:57:54,405 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:57:54,406 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+    results['resources']['stylesheets'] = len(soup.find_all('link', rel='stylesheet'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'page_size_kb'
+2025-05-18 09:57:54,413 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:57:54] "POST / HTTP/1.1" 200 -
+2025-05-18 09:59:49,036 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:59:49] "GET / HTTP/1.1" 200 -
+2025-05-18 09:59:51,340 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 09:59:53,049 - __main__ - INFO - Scan completed successfully
+2025-05-18 09:59:53,050 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 09:59:53,053 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 09:59:53] "POST / HTTP/1.1" 200 -
+2025-05-18 10:11:49,567 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:11:49] "GET / HTTP/1.1" 200 -
+2025-05-18 10:11:56,299 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:12:04,206 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:12:04,208 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:12:04,216 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:12:04] "POST / HTTP/1.1" 200 -
+2025-05-18 10:14:35,281 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:14:35] "GET / HTTP/1.1" 200 -
+2025-05-18 10:14:37,904 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:14:39,638 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:14:39,640 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:14:39,649 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:14:39] "POST / HTTP/1.1" 200 -
+2025-05-18 10:17:52,153 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:17:52] "GET / HTTP/1.1" 200 -
+2025-05-18 10:17:55,109 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:17:57,483 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:17:57,485 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:17:57,488 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:17:57] "POST / HTTP/1.1" 200 -
+2025-05-18 10:19:44,278 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:19:44] "GET / HTTP/1.1" 200 -
+2025-05-18 10:19:46,992 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:19:49,277 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:19:49,280 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:19:49,285 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:19:49] "POST / HTTP/1.1" 200 -
+2025-05-18 10:21:40,985 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:21:40] "GET / HTTP/1.1" 200 -
+2025-05-18 10:21:43,422 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:21:50,689 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:21:50,696 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:21:50,699 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:21:50] "POST / HTTP/1.1" 200 -
+2025-05-18 10:22:22,137 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:22:22] "GET / HTTP/1.1" 200 -
+2025-05-18 10:22:24,416 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:22:26,285 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:22:26,286 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:22:26,288 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:22:26] "POST / HTTP/1.1" 200 -
+2025-05-18 10:24:01,457 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:24:01] "GET / HTTP/1.1" 200 -
+2025-05-18 10:24:03,684 - __main__ - INFO - Starting scan of: https://google.com/
+2025-05-18 10:24:05,773 - __main__ - INFO - Scan completed successfully
+2025-05-18 10:24:05,777 - __main__ - ERROR - Scan failed: 'page_size_kb'
+Traceback (most recent call last):
+  File "C:\Users\nk\website-quality-scanner\app.py", line 632, in index
+    ["Mobile Ready", "Yes" if scan_data.get('meta', {}).get('viewport', False) else "No"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nk\website-quality-scanner\app.py", line 240, in auto_score_website
+KeyError: 'page_size_kb'
+2025-05-18 10:24:05,780 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 10:24:05] "POST / HTTP/1.1" 200 -
